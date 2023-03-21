@@ -107,3 +107,63 @@ span{
     padding: 10px;
     border-radius: 5px;
 }
+#experience{
+    margin-top: 80px;
+    max-width: 100%;
+    width: 100%;
+
+}
+#experience .main{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+     background-position: left;
+}
+.container{
+    max-width: 1500px;
+    width: 100%;
+    margin: auto;
+ 
+}
+.tow-card{
+    max-width: 100%;
+  width: 100%;
+  display: flex;
+  justify-content:space-evenly;
+ 
+}
+.card1{
+    max-width: 30%;
+    width: 100%;
+    border-radius: 2px;
+    background-color: white;
+    box-shadow: 3px 4px 22px -6px #221d1d;
+    border-left: 4px solid black;
+    border-image: linear-gradient(180deg, lightSalmon,tomato );
+    border-image-slice: 1;
+}
+.card2{
+    border-radius: 2px;
+    max-width: 30%;
+    width: 100%;
+    background-color: white;
+    box-shadow: 3px 4px 22px -6px #221d1d;
+    border-left: 4px solid black;
+    border-image: linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+}
+.card1,.card2{
+    padding: 10px;
+    
+}
+footer{
+    max-width: 100%;
+    width: 100%;
+    
+}
+footer p{
+    max-width: 500px;
+    width: 100%;
+    margin:auto;
+    margin-top: 50px;
+}
